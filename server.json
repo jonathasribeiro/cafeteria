@@ -28,39 +28,39 @@
   "products": [
     {
       "id": 1,
-      "title": "Tênis de Caminhada Leve Confortável",
-      "price": 179.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg"
+      "title": "Pão de Queijo",
+      "price": 24.59,
+      "image": "http://www.congeladosmana.com.br/images/pao_queijo399x409.png?crc=168897"
     },
     {
       "id": 2,
-      "title": "Tênis VR Caminhada Confortável Detalhes Couro Masculino",
-      "price": 139.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg"
+      "title": "Café Tradicional",
+      "price": 14.9,
+      "image": "https://image.freepik.com/vetores-gratis/xicara-de-cafe-com-pires-no-fundo-branco_82574-6126.jpg"
     },
     {
       "id": 3,
-      "title": "Tênis Adidas Duramo Lite 2.0",
-      "price": 219.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis3.jpg"
+      "title": "Suco Del Valle",
+      "price": 9.9,
+      "image": "http://www.globalbebidas.com/Imagens/Produtos/79Suco-Del-Valle-Mais-Pessego-Lata-350-ml.jpg"
     },
     {
       "id": 5,
-      "title": "Tênis VR Caminhada Confortável Detalhes Couro Masculino",
-      "price": 139.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg"
+      "title": "Bolo de Laranja",
+      "price": 40.9,
+      "image": "https://http2.mlstatic.com/bandeja-prato-redondo-branco-grande-para-bolo-com-fundo-D_NQ_NP_926714-MLB27964884093_082018-F.jpg"
     },
     {
       "id": 6,
-      "title": "Tênis Adidas Duramo Lite 2.0",
-      "price": 219.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis3.jpg"
+      "title": "Cappucino",
+      "price": 21.9,
+      "image": "https://image.freepik.com/vetores-gratis/copo-branco-realista-cheio-de-cappuccino_1284-2042.jpg"
     },
     {
       "id": 4,
-      "title": "Tênis de Caminhada Leve Confortável",
-      "price": 179.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg"
+      "title": "Coca Cola com Cafeína",
+      "price": 7.9,
+      "image": "https://images-americanas.b2w.io/produtos/01/00/img1/104888/1/104888187_1GG.jpg"
     }
   ]
 }

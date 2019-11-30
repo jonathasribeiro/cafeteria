@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { MdAddShoppingCart } from 'react-icons/md';
+// import * as firebase from 'firebase';
 import { formatPrice } from '../../util/format';
 import api from '../../services/api';
 
@@ -23,7 +24,6 @@ export default function Home() {
   useEffect(() => {
     async function loadProducts() {
       const response = await api.get('products');
-
       const data = response.data.map(product => ({
         ...product,
         priceFormatted: formatPrice(product.price),
@@ -33,7 +33,7 @@ export default function Home() {
     }
 
     loadProducts();
-  }, []);
+  }, [products]);
 
   function handleAddProduct(id) {
     dispatch(CartActions.addToCartRequest(id));
@@ -53,7 +53,7 @@ export default function Home() {
               {amount[product.id] || 0}
             </div>
 
-            <span>ADICIONAR AO CARRINHO</span>
+            <span>ADICIONAR AO PEDIDO</span>
           </button>
         </li>
       ))}

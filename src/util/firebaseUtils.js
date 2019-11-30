@@ -1,7 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import * as firebase from 'firebase';
-import App from './App';
+import firebase from 'firebase';
 
 const config = {
   apiKey: 'AIzaSyAgg_yDXt1Qoutu7hcOdXXOrFhiVBHjWeE',
@@ -14,7 +11,5 @@ const config = {
   measurementId: 'G-CYK469N5JS',
 };
 
-firebase.initializeApp(config);
-firebase.database();
-
-ReactDOM.render(<App />, document.getElementById('root'));
+export const firebaseImpl = firebase.initializeApp(config);
+export const firebaseDatabase = firebase.database();
