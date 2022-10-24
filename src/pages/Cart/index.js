@@ -98,7 +98,7 @@ export default function Cart() {
         <button
           type="button"
           onClick={() => finishRequest()}
-          disabled={cart.length === 0}
+          disabled={cart === []}
         >
           Finalizar pedido
         </button>
