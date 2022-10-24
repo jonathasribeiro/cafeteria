@@ -1,0 +1,66 @@
+{
+  "stock": [
+    {
+      "id": 1,
+      "amount": 3
+    },
+    {
+      "id": 2,
+      "amount": 5
+    },
+    {
+      "id": 3,
+      "amount": 2
+    },
+    {
+      "id": 4,
+      "amount": 1
+    },
+    {
+      "id": 5,
+      "amount": 5
+    },
+    {
+      "id": 6,
+      "amount": 10
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Pão de Queijo",
+      "price": 24.59,
+      "image": "http://www.congeladosmana.com.br/images/pao_queijo399x409.png?crc=168897"
+    },
+    {
+      "id": 2,
+      "title": "Café Tradicional",
+      "price": 14.9,
+      "image": "https://image.freepik.com/vetores-gratis/xicara-de-cafe-com-pires-no-fundo-branco_82574-6126.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Suco Del Valle",
+      "price": 9.9,
+      "image": "http://www.globalbebidas.com/Imagens/Produtos/79Suco-Del-Valle-Mais-Pessego-Lata-350-ml.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Bolo de Laranja",
+      "price": 40.9,
+      "image": "https://http2.mlstatic.com/bandeja-prato-redondo-branco-grande-para-bolo-com-fundo-D_NQ_NP_926714-MLB27964884093_082018-F.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Cappucino",
+      "price": 21.9,
+      "image": "https://image.freepik.com/vetores-gratis/copo-branco-realista-cheio-de-cappuccino_1284-2042.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Coca Cola com Cafeína",
+      "price": 7.9,
+      "image": "https://images-americanas.b2w.io/produtos/01/00/img1/104888/1/104888187_1GG.jpg"
+    }
+  ]
+}
