@@ -1,4 +1,5 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 import { useDispatch, useSelector } from 'react-redux';
 import {
   MdRemoveCircleOutline,
@@ -36,6 +37,10 @@ export default function Cart() {
 
   function decrement(product) {
     dispatch(CartActions.updateAmountRequest(product.id, product.amount - 1));
+  }
+
+  function finishRequest() {
+    toast.success('Pedido realizado com sucesso!');
   }
 
   return (
@@ -90,7 +95,13 @@ export default function Cart() {
       </ProductTable>
 
       <footer>
-        <button type="button">Finalizar pedido</button>
+        <button
+          type="button"
+          onClick={() => finishRequest()}
+          disabled={cart.length === 0}
+        >
+          Finalizar pedido
+        </button>
         <Total>
           <span>TOTAL</span>
           <strong>{total}</strong>
